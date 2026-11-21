@@ -1,9 +1,9 @@
 #include "Process/Process.h"
 
 int main(void){
-    Process* p = new Process("2 1 2 1 2 1 0 3 20 20 20 20 20 2 1 2 1");
+    Process* p = new Process("1 2 3 1 2 3 1 2 4 4 4 4");
 
-    p->PrintMostNumerousPair();
+    p->Run();
 
     return 0;
 }
